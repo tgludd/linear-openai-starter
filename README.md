@@ -34,6 +34,31 @@ A starter repository for integrating Linear project management with OpenAI API. 
    python main.py
    ```
 
+## Usage
+
+### Installation and Setup
+
+1. **Install requirements**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Configure environment variables**:
+   Create a `.env` file in the project root with your API keys:
+   ```
+   OPENAI_API_KEY=your_openai_api_key_here
+   LINEAR_API_KEY=your_linear_api_key_here
+   ```
+
+3. **Run the application**:
+   ```bash
+   python main.py
+   ```
+
+### Security Note
+
+**⚠️ IMPORTANT**: Never commit your actual `.env` file to version control. The `.env` file contains sensitive API keys and should be kept private. Always use the provided `.env.example` file as a template and add your real `.env` file to `.gitignore`.
+
 ## API Keys
 
 - **OpenAI API Key**: Get your API key from [OpenAI Platform](https://platform.openai.com/api-keys)
